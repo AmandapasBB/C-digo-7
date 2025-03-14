@@ -1,0 +1,685 @@
+[
+  {
+    "title": "Hereditário",
+    "ano": 2018,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Sobrenatural"],
+    "ambientes": ["Casa Antiga"],
+    "acontecimentos": ["Possessão Demoníaca"],
+    "quantidade": "Solo",
+    "sinopse": "Após a morte da avó, segredos sombrios começam a surgir.",
+    "capas": ["/images/hereditario.jpg"]
+  },
+  {
+    "title": "A Bruxa",
+    "ano": 2015,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Gótico"],
+    "ambientes": ["Floresta"],
+    "acontecimentos": ["Maldições e Feitiços"],
+    "quantidade": "Solo",
+    "sinopse": "No século XVII, uma família enfrenta forças demoníacas na floresta.",
+    "capas": ["/images/A_bruxa.jpg"]
+  },
+  {
+    "title": "O Exorcista",
+    "ano": 1973,
+    "periodo": "Antigos",
+    "subgeneros": ["Sobrenatural", "Horror de Arte"],
+    "ambientes": ["Casa Assombrada"],
+    "acontecimentos": ["Possessão Demoníaca", "Evocação de Entidades Malignas"],
+    "quantidade": "Solo",
+    "sinopse": "Uma jovem é possuída por uma entidade demoníaca, e um padre tenta salvá-la.",
+    "capas": ["/images/o_exorcista.jpg"]
+  },
+  {
+    "title": "O Iluminado",
+    "ano": 1980,
+    "periodo": "Antigos",
+    "subgeneros": ["Psicológico", "Sobrenatural"],
+    "ambientes": ["Hotéis e Motéis"],
+    "acontecimentos": ["Mudanças na Percepção da Realidade"],
+    "quantidade": "Solo",
+    "sinopse": "Um escritor isolado em um hotel vazio começa a enlouquecer.",
+    "capas": ["/images/o_iluminado.jpg"]
+  },
+  {
+    "title": "Sexta-Feira 13",
+    "ano": 1980,
+    "periodo": "Antigos",
+    "subgeneros": ["Slash", "Sobrevivência"],
+    "ambientes": ["Lago", "Floresta"],
+    "acontecimentos": ["Serial Killer Mascarado"],
+    "quantidade": "Franquia",
+    "sinopse": "Um grupo de jovens em um acampamento é perseguido por um assassino mascarado.",
+    "capas": ["/images/sexta_13.jpg"]
+  },
+  {
+    "title": "O Chamado",
+    "ano": 2002,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Casa Assombrada"],
+    "acontecimentos": ["Objetos Assombrados", "Aparições Fantasmagóricas"],
+    "quantidade": "Solo",
+    "sinopse": "Uma jornalista investiga uma fita amaldiçoada que causa a morte de quem a assiste.",
+    "capas": ["/images/hereditario.jpg"]
+  },
+  {
+    "title": "Halloween",
+    "ano": 1978,
+    "periodo": "Antigos",
+    "subgeneros": ["Slash", "Psicológico"],
+    "ambientes": ["Cidade", "Casa Antiga"],
+    "acontecimentos": ["Serial Killer Mascarado"],
+    "quantidade": "Franquia",
+    "sinopse": "Michael Myers foge de um hospital psiquiátrico e espalha o terror.",
+    "capas": ["/images/halloween.jpg"]
+  },
+  {
+    "title": "Corra!",
+    "ano": 2017,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Suspense"],
+    "ambientes": ["Casa Antiga"],
+    "acontecimentos": ["Mudanças na Percepção da Realidade"],
+    "quantidade": "Solo",
+    "sinopse": "Um jovem negro descobre segredos perturbadores ao visitar a família de sua namorada branca.",
+    "capas": ["/images/corra.jpg"]
+  },
+  {
+    "title": "It: A Coisa",
+    "ano": 2017,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Cidade", "Esgotos"],
+    "acontecimentos": ["Aparições Fantasmagóricas"],
+    "quantidade": "Franquia",
+    "sinopse": "Um grupo de crianças enfrenta um palhaço demoníaco que se alimenta de seus medos.",
+    "capas": ["/images/it_acoisa.jpg"]
+  },
+  {
+    "title": "Midsommar",
+    "ano": 2019,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Horror de Arte"],
+    "ambientes": ["Culto", "Campo"],
+    "acontecimentos": ["Cultos Macabros", "Sacrifícios Humanos"],
+    "quantidade": "Solo",
+    "sinopse": "Um casal viaja para um festival sueco que se transforma em um pesadelo pagão.",
+    "capas": ["/images/midsommar.jpg"]
+  },
+  {
+    "title": "Babadook",
+    "ano": 2014,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Sobrenatural"],
+    "ambientes": ["Casa Assombrada"],
+    "acontecimentos": ["Objetos Assombrados", "Aparições Fantasmagóricas"],
+    "quantidade": "Solo",
+    "sinopse": "Uma mãe e seu filho são aterrorizados por uma entidade do livro infantil Babadook.",
+    "capas": ["/images/babadock.jpg"]
+  },
+  {
+    "title": "A Hora do Pesadelo",
+    "ano": 1984,
+    "periodo": "Antigos",
+    "subgeneros": ["Slash", "Psicológico"],
+    "ambientes": ["Cidade", "Sonhos"],
+    "acontecimentos": [
+      "Serial Killer Mascarado",
+      "Mudanças na Percepção da Realidade"
+    ],
+    "quantidade": "Franquia",
+    "sinopse": "Freddy Krueger persegue adolescentes em seus sonhos, transformando-os em pesadelos mortais.",
+    "capas": ["/images;a_hora_do_pesadelo.png"]
+  },
+  {
+    "title": "O Massacre da Serra Elétrica",
+    "ano": 1974,
+    "periodo": "Antigos",
+    "subgeneros": ["Slash", "Sobrevivência"],
+    "ambientes": ["Casa Isolada", "Estrada"],
+    "acontecimentos": ["Serial Killer Mascarado", "Canibalismo"],
+    "quantidade": "Franquia",
+    "sinopse": "Um grupo de amigos se depara com uma família de canibais liderada por Leatherface.",
+    "capas": ["/images/massacre_serra_eletrica.jpg"]
+  },
+  {
+    "title": "Nós",
+    "ano": 2019,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Sobrenatural"],
+    "ambientes": ["Cidade", "Praia"],
+    "acontecimentos": ["Doppelgängers", "Mudanças na Percepção da Realidade"],
+    "quantidade": "Solo",
+    "sinopse": "Uma família é aterrorizada por clones sinistros de si mesmos.",
+    "capas": ["/images/nos.jpg"]
+  },
+  {
+    "title": "O Homem Invisível",
+    "ano": 2020,
+    "periodo": "Atuais",
+    "subgeneros": ["Suspense", "Ficção Científica"],
+    "ambientes": ["Casa", "Cidade"],
+    "acontecimentos": [
+      "Experimentos Genéticos",
+      "Mudanças na Percepção da Realidade"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Uma mulher começa a suspeitar que seu ex-abusador encontrou uma forma de se tornar invisível.",
+    "capas": ["/images/it_acoisa.jpg"]
+  },
+  {
+    "title": "O Enigma de Outro Mundo",
+    "ano": 1982,
+    "periodo": "Antigos",
+    "subgeneros": ["Ficção Científica", "Body Horror"],
+    "ambientes": ["Base Científica", "Neve"],
+    "acontecimentos": ["Forças Desconhecidas", "Experimentos Genéticos"],
+    "quantidade": "Solo",
+    "sinopse": "Uma equipe de cientistas na Antártica descobre um organismo alienígena que assume a forma de suas vítimas.",
+    "capas": ["/images/enigma_outro_mundo.jpg"]
+  },
+  {
+    "title": "Hellraiser",
+    "ano": 1987,
+    "periodo": "Antigos",
+    "subgeneros": ["Sobrenatural", "Body Horror"],
+    "ambientes": ["Casa", "Dimensão Paralela"],
+    "acontecimentos": ["Evocação de Entidades Malignas", "Sacrifícios Humanos"],
+    "quantidade": "Franquia",
+    "sinopse": "Uma misteriosa caixa-puzzle abre um portal para um reino de prazeres e torturas extremas.",
+    "capas": ["/images/Hellraiser.jpg"]
+  },
+  {
+    "title": "A Vila",
+    "ano": 2004,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Suspense"],
+    "ambientes": ["Vila", "Floresta"],
+    "acontecimentos": [
+      "Forças Desconhecidas",
+      "Mudanças na Percepção da Realidade"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Uma comunidade isolada teme misteriosas criaturas que habitam a floresta ao redor.",
+    "capas": ["/images/a_vila.jpg"]
+  },
+  {
+    "title": "O Farol",
+    "ano": 2019,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Horror de Arte"],
+    "ambientes": ["Farol", "Ilha"],
+    "acontecimentos": ["Mudanças na Percepção da Realidade", "Isolamento"],
+    "quantidade": "Solo",
+    "sinopse": "Dois guardiões de um farol isolado começam a enlouquecer devido ao confinamento e aos mistérios da ilha.",
+    "capas": ["/images/farol.jpg"]
+  },
+  {
+    "title": "Carrie, A Estranha",
+    "ano": 1976,
+    "periodo": "Antigos",
+    "subgeneros": ["Psicológico", "Sobrenatural"],
+    "ambientes": ["Escola", "Casa"],
+    "acontecimentos": [
+      "Mudanças na Percepção da Realidade",
+      "Poderes Paranormais"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Uma jovem com poderes telecinéticos enfrenta bullying e desencadeia uma fúria devastadora.",
+    "capas": ["/images/carrie_a_estranha.jpg"]
+  },
+  {
+    "title": "Invocação do Mal",
+    "ano": 2013,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Casa Assombrada"],
+    "acontecimentos": ["Possessão Demoníaca", "Evocação de Entidades Malignas"],
+    "quantidade": "Franquia",
+    "sinopse": "Os investigadores paranormais Ed e Lorraine Warren ajudam uma família aterrorizada por uma presença sombria em sua casa.",
+    "capas": ["/images/invocacao_do_mal.jpg"]
+  },
+  {
+    "title": "O Hospedeiro",
+    "ano": 2006,
+    "periodo": "Atuais",
+    "subgeneros": ["Ficção Científica", "Monstros"],
+    "ambientes": ["Cidade", "Rio"],
+    "acontecimentos": ["Forças Desconhecidas", "Experimentos Genéticos"],
+    "quantidade": "Solo",
+    "sinopse": "Um monstro mutante surge de um rio e sequestra uma jovem, forçando sua família a enfrentá-lo.",
+    "capas": ["/images/hospedeiro.jpg"]
+  },
+  {
+    "title": "A Entidade",
+    "ano": 2012,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Casa Assombrada"],
+    "acontecimentos": ["Objetos Assombrados", "Evocação de Entidades Malignas"],
+    "quantidade": "Solo",
+    "sinopse": "Um escritor descobre filmes caseiros perturbadores que revelam a presença de uma entidade demoníaca.",
+    "capas": ["/images/A_entidade.jpg"]
+  },
+  {
+    "title": "Cubo",
+    "ano": 1997,
+    "periodo": "Antigos",
+    "subgeneros": ["Ficção Científica", "Psicológico"],
+    "ambientes": ["Espaços Fechados"],
+    "acontecimentos": ["Jogos Sádicos", "Mudanças na Percepção da Realidade"],
+    "quantidade": "Solo",
+    "sinopse": "Um grupo de estranhos acorda em um labirinto mortal cheio de armadilhas.",
+    "capas": ["/images/Cubo.jpg"]
+  },
+  {
+    "title": "O Orfanato",
+    "ano": 2007,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Orfanato", "Casa Assombrada"],
+    "acontecimentos": ["Aparições Fantasmagóricas", "Objetos Assombrados"],
+    "quantidade": "Solo",
+    "sinopse": "Uma mulher retorna ao orfanato onde cresceu e descobre segredos sombrios sobre seu passado.",
+    "capas": ["/images/orfanato.jpg"]
+  },
+  {
+    "title": "A Freira",
+    "ano": 2018,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Horror de Arte"],
+    "ambientes": ["Mosteiro", "Igreja"],
+    "acontecimentos": ["Evocação de Entidades Malignas", "Possessão Demoníaca"],
+    "quantidade": "Franquia",
+    "sinopse": "Uma freira comete suicídio em um convento na Romênia, e o Vaticano envia um padre e uma noviça para investigar.",
+    "capas": ["/images/a_freira.jpg"]
+  },
+  {
+    "title": "A Profecia",
+    "ano": 1976,
+    "periodo": "Antigos",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Casa", "Igreja"],
+    "acontecimentos": ["Possessão Demoníaca", "Evocação de Entidades Malignas"],
+    "quantidade": "Franquia",
+    "sinopse": "Uma criança aparentemente comum pode ser o Anticristo em meio a eventos misteriosos e mortais.",
+    "capas": ["/images/a_freira.jpg"]
+  },
+  {
+    "title": "A Freira",
+    "ano": 2018,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Horror de Arte"],
+    "ambientes": ["Mosteiro", "Igreja"],
+    "acontecimentos": ["Evocação de Entidades Malignas", "Possessão Demoníaca"],
+    "quantidade": "Franquia",
+    "sinopse": "Uma freira comete suicídio em um convento na Romênia, e o Vaticano envia um padre e uma noviça para investigar.",
+    "capas": ["/images/profecia.jpg"]
+  },
+
+  {
+    "title": "O Albergue",
+    "ano": 2005,
+    "periodo": "Atuais",
+    "subgeneros": ["Gore", "Sobrevivência"],
+    "ambientes": ["Hotel", "Porão"],
+    "acontecimentos": ["Jogos Sádicos", "Sacrifícios Humanos"],
+    "quantidade": "Solo",
+    "sinopse": "Turistas americanos na Europa acabam em um esquema brutal de tortura por diversão.",
+    "capas": ["https://via.placeholder.com/200x300?text=O+Albergue"]
+  },
+  {
+    "title": "A Chave Mestra",
+    "ano": 2005,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Casa Antiga", "Pântano"],
+    "acontecimentos": [
+      "Maldições e Feitiços",
+      "Mudanças na Percepção da Realidade"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Uma cuidadora descobre um segredo sombrio escondido em uma mansão no sul dos EUA.",
+    "capas": ["/images/chave_mestra.jpg"]
+  },
+  {
+    "title": "O Homem nas Trevas",
+    "ano": 2016,
+    "periodo": "Atuais",
+    "subgeneros": ["Suspense", "Sobrevivência"],
+    "ambientes": ["Casa", "Cidade"],
+    "acontecimentos": ["Assaltos que Viram Pesadelos"],
+    "quantidade": "Solo",
+    "sinopse": "Três ladrões invadem a casa de um homem cego, sem saber que ele esconde um segredo mortal.",
+    "capas": ["/images/homem_nas_trevas.jpg"]
+  },
+  {
+    "title": "Possessão",
+    "ano": 2012,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Casa", "Cidade"],
+    "acontecimentos": ["Possessão Demoníaca", "Objetos Assombrados"],
+    "quantidade": "Solo",
+    "sinopse": "Uma garota compra uma antiga caixa de madeira e liberta um espírito maligno que começa a possuí-la.",
+    "capas": ["/images/A_possessão.jpg"]
+  },
+  {
+    "title": "A Casa dos 1000 Corpos",
+    "ano": 2003,
+    "periodo": "Atuais",
+    "subgeneros": ["Slash", "Gore"],
+    "ambientes": ["Casa", "Estrada"],
+    "acontecimentos": ["Canibalismo", "Sacrifícios Humanos"],
+    "quantidade": "Solo",
+    "sinopse": "Dois casais encontram uma família de psicopatas enquanto investigam lendas urbanas de terror.",
+    "capas": ["/images/1000_corpos.jpg"]
+  },
+  {
+    "title": "O Segredo da Cabana",
+    "ano": 2011,
+    "periodo": "Atuais",
+    "subgeneros": ["Slash", "Comédia de Terror"],
+    "ambientes": ["Cabanas no Meio do Nada", "Floresta"],
+    "acontecimentos": ["Jogos Sádicos", "Forças Desconhecidas"],
+    "quantidade": "Solo",
+    "sinopse": "Um grupo de amigos vai para uma cabana isolada e descobre que fazem parte de um experimento mortal.",
+    "capas": ["/images/a_freira.jpg"]
+  },
+  {
+    "title": "O Ritual",
+    "ano": 2017,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Floresta", "Vila"],
+    "acontecimentos": ["Cultos Macabros", "Evocação de Entidades Malignas"],
+    "quantidade": "Solo",
+    "sinopse": "Quatro amigos fazem uma trilha na floresta e acabam encontrando algo muito mais sombrio do que imaginavam.",
+    "capas": ["/images/a_freira.jpg"]
+  },
+  {
+    "title": "Terrifier",
+    "ano": 2016,
+    "periodo": "Atuais",
+    "subgeneros": ["Slash", "Gore"],
+    "ambientes": ["Cidade", "Prédios Abandonados"],
+    "acontecimentos": ["Serial Killer Mascarado"],
+    "quantidade": "Franquia",
+    "sinopse": "Um palhaço assassino aterrorizante persegue e mata suas vítimas de forma brutal em uma cidade deserta.",
+    "capas": ["/images/Terrifier.jpg"]
+  },
+  {
+    "title": "O Chamado do Mal",
+    "ano": 2017,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Casa", "Igreja"],
+    "acontecimentos": ["Possessão Demoníaca", "Evocação de Entidades Malignas"],
+    "quantidade": "Solo",
+    "sinopse": "Um casal descobre uma força demoníaca após se mudar para uma nova casa.",
+    "capas": ["/images/a_freira.jpg"]
+  },
+  {
+    "title": "O Colecionador de Corpos",
+    "ano": 2009,
+    "periodo": "Atuais",
+    "subgeneros": ["Slash", "Gore"],
+    "ambientes": ["Casa", "Porão"],
+    "acontecimentos": ["Jogos Sádicos", "Assaltos que Viram Pesadelos"],
+    "quantidade": "Franquia",
+    "sinopse": "Um ladrão invade uma casa e descobre que um assassino brutal já está lá, torturando a família.",
+    "capas": ["/images/colecionador_de_corpos.jpg"]
+  },
+  {
+    "title": "O Cemitério Maldito",
+    "ano": 1989,
+    "periodo": "Antigos",
+    "subgeneros": ["Sobrenatural", "Horror Atmosférico"],
+    "ambientes": ["Cemitério", "Casa Antiga"],
+    "acontecimentos": ["Maldições e Feitiços", "Aparições Fantasmagóricas"],
+    "quantidade": "Franquia",
+    "sinopse": "Uma família descobre um antigo cemitério que pode trazer os mortos de volta à vida – mas com um preço.",
+    "capas": ["/images/a_freira.jpg"]
+  },
+  {
+    "title": "A Corrente do Mal",
+    "ano": 2014,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Sobrenatural"],
+    "ambientes": ["Cidade", "Casa"],
+    "acontecimentos": [
+      "Forças Desconhecidas",
+      "Mudanças na Percepção da Realidade"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Uma jovem é perseguida por uma entidade sobrenatural que passa de pessoa para pessoa através do contato físico.",
+    "capas": ["/images/a_freira.jpg"]
+  },
+  {
+    "title": "O Telefone Preto",
+    "ano": 2022,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Sobrenatural"],
+    "ambientes": ["Cidade", "Porão"],
+    "acontecimentos": ["Serial Killer Mascarado", "Objetos Assombrados"],
+    "quantidade": "Solo",
+    "sinopse": "Um menino sequestrado começa a receber ligações misteriosas de vítimas anteriores através de um telefone desconectado.",
+    "capas": ["/images/telefone_preto.jpg"]
+  },
+  {
+    "title": "Morte Instantânea",
+    "ano": 2021,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Suspense"],
+    "ambientes": ["Cidade", "Apartamentos"],
+    "acontecimentos": ["Objetos Assombrados", "Aparições Fantasmagóricas"],
+    "quantidade": "Solo",
+    "sinopse": "Um aplicativo de celular prevê a morte de seus usuários, e uma jovem luta para escapar de seu destino.",
+    "capas": ["/images/morte_instantanea.jpg"]
+  },
+  {
+    "title": "Freaky: No Corpo de um Assassino",
+    "ano": 2020,
+    "periodo": "Atuais",
+    "subgeneros": ["Slash", "Comédia de Terror"],
+    "ambientes": ["Escola", "Cidade"],
+    "acontecimentos": [
+      "Serial Killer Mascarado",
+      "Mudanças na Percepção da Realidade"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Uma adolescente troca de corpo com um assassino em série e precisa recuperar sua identidade antes que seja tarde.",
+    "capas": ["/images/freaky.jpg"]
+  },
+  {
+    "title": "O Chalé",
+    "ano": 2019,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Horror Atmosférico"],
+    "ambientes": ["Cabanas no Meio do Nada", "Neve"],
+    "acontecimentos": ["Mudanças na Percepção da Realidade", "Isolamento"],
+    "quantidade": "Solo",
+    "sinopse": "Duas crianças ficam presas em um chalé isolado com a nova namorada de seu pai, e eventos misteriosos começam a ocorrer.",
+    "capas": ["/images/chale.jpg"]
+  },
+  {
+    "title": "A Nuvem",
+    "ano": 2020,
+    "periodo": "Atuais",
+    "subgeneros": ["Ficção Científica", "Horror Atmosférico"],
+    "ambientes": ["Fazenda", "Campo"],
+    "acontecimentos": ["Experimentos Genéticos", "Forças Desconhecidas"],
+    "quantidade": "Solo",
+    "sinopse": "Uma mulher descobre que suas gafanhotos cultivados para consumo desenvolvem um apetite por sangue humano.",
+    "capas": ["/images/a_nuvem.jpg"]
+  },
+  {
+    "title": "O Convento",
+    "ano": 2018,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Horror de Arte"],
+    "ambientes": ["Igreja", "Mosteiro"],
+    "acontecimentos": ["Evocação de Entidades Malignas", "Possessão Demoníaca"],
+    "quantidade": "Solo",
+    "sinopse": "Uma jovem noviça é enviada a um convento assombrado e descobre segredos aterrorizantes sobre sua fé.",
+    "capas": ["/images/o_convento.jpg"]
+  },
+  {
+    "title": "Os Estranhos",
+    "ano": 2008,
+    "periodo": "Atuais",
+    "subgeneros": ["Suspense", "Sobrevivência"],
+    "ambientes": ["Casa", "Campo"],
+    "acontecimentos": ["Assaltos que Viram Pesadelos", "Forças Desconhecidas"],
+    "quantidade": "Solo",
+    "sinopse": "Um casal isolado em uma casa de campo é aterrorizado por três figuras mascaradas durante a noite.",
+    "capas": ["/images/os_outros.jpg"]
+  },
+  {
+    "title": "O Experimento Belko",
+    "ano": 2016,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Gore"],
+    "ambientes": ["Escritório", "Cidade"],
+    "acontecimentos": ["Jogos Sádicos", "Sacrifícios Humanos"],
+    "quantidade": "Solo",
+    "sinopse": "Funcionários de um prédio empresarial são trancados e forçados a matar uns aos outros para sobreviver.",
+    "capas": ["/images/belko_experimento.jpg"]
+  },
+  {
+    "title": "A Casa do Medo",
+    "ano": 2019,
+    "periodo": "Atuais",
+    "subgeneros": ["Slash", "Suspense"],
+    "ambientes": ["Casa", "Parques de Diversões e Circos Abandonados"],
+    "acontecimentos": ["Jogos Sádicos", "Serial Killer Mascarado"],
+    "quantidade": "Solo",
+    "sinopse": "Um grupo de amigos entra em uma casa do terror real, onde assassinos mascarados caçam suas vítimas.",
+    "capas": ["/images/casa_do_medo.jpg"]
+  },
+  {
+    "title": "O Diabo de Cada Dia",
+    "ano": 2020,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Horror de Arte"],
+    "ambientes": ["Cidade", "Igreja"],
+    "acontecimentos": ["Cultos Macabros", "Sacrifícios Humanos"],
+    "quantidade": "Solo",
+    "sinopse": "Uma cidade isolada nos EUA esconde um emaranhado de fanatismo religioso, crimes e violência.",
+    "capas": ["/images/diabo_de_cada_dia.jpg"]
+  },
+  {
+    "title": "O Convite",
+    "ano": 2015,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Suspense"],
+    "ambientes": ["Casa", "Jantar"],
+    "acontecimentos": ["Cultos Macabros", "Mudanças na Percepção da Realidade"],
+    "quantidade": "Solo",
+    "sinopse": "Um jantar entre amigos se transforma em um jogo psicológico mortal, onde nem tudo é o que parece.",
+    "capas": ["/images/a_freira.jpg"]
+  },
+  {
+    "title": "Silêncio",
+    "ano": 2016,
+    "periodo": "Atuais",
+    "subgeneros": ["Slash", "Suspense"],
+    "ambientes": ["Casa", "Floresta"],
+    "acontecimentos": [
+      "Serial Killer Mascarado",
+      "Assaltos que Viram Pesadelos"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Uma escritora surda que vive isolada em uma floresta precisa lutar contra um assassino mascarado.",
+    "capas": ["/images/silencio.jpg"]
+  },
+  {
+    "title": "A Bruxa de Blair",
+    "ano": 1999,
+    "periodo": "Antigos",
+    "subgeneros": ["Found Footage", "Sobrenatural"],
+    "ambientes": ["Floresta"],
+    "acontecimentos": ["Aparições Fantasmagóricas", "Maldições e Feitiços"],
+    "quantidade": "Solo",
+    "sinopse": "Três estudantes desaparecem enquanto investigam a lenda da Bruxa de Blair, deixando apenas suas filmagens para trás.",
+    "capas": ["/images/bruxa_blair.jpg"]
+  },
+  {
+    "title": "Os Outros",
+    "ano": 2001,
+    "periodo": "Atuais",
+    "subgeneros": ["Sobrenatural", "Psicológico"],
+    "ambientes": ["Casa Antiga"],
+    "acontecimentos": [
+      "Aparições Fantasmagóricas",
+      "Mudanças na Percepção da Realidade"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Uma mãe protege seus filhos da luz do sol e descobre que a casa esconde segredos sombrios.",
+    "capas": ["/images/os_outros.jpg"]
+  },
+  {
+    "title": "Cloverfield: Monstro",
+    "ano": 2008,
+    "periodo": "Atuais",
+    "subgeneros": ["Found Footage", "Ficção Científica"],
+    "ambientes": ["Cidade"],
+    "acontecimentos": ["Forças Desconhecidas", "Ambientes Hostis"],
+    "quantidade": "Solo",
+    "sinopse": "Um grupo de amigos tenta sobreviver enquanto um monstro gigante destrói Nova York.",
+    "capas": ["/images/cloverfild.jpg"]
+  },
+  {
+    "title": "Alta Tensão",
+    "ano": 2003,
+    "periodo": "Atuais",
+    "subgeneros": ["Slash", "Psicológico"],
+    "ambientes": ["Casa", "Estrada"],
+    "acontecimentos": [
+      "Serial Killer Mascarado",
+      "Mudanças na Percepção da Realidade"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Duas amigas se refugiam em uma casa de campo, mas são perseguidas por um assassino brutal.",
+    "capas": ["/images/alta_tensao.jpg"]
+  },
+  {
+    "title": "O Albergue",
+    "ano": 2005,
+    "periodo": "Atuais",
+    "subgeneros": ["Gore", "Sobrevivência"],
+    "ambientes": ["Hotel", "Porão"],
+    "acontecimentos": ["Jogos Sádicos", "Sacrifícios Humanos"],
+    "quantidade": "Solo",
+    "sinopse": "Turistas americanos na Europa acabam em um esquema brutal de tortura por diversão.",
+    "capas": ["/images/albergue.jpg"]
+  },
+  {
+    "title": "Viagem Maldita",
+    "ano": 2006,
+    "periodo": "Atuais",
+    "subgeneros": ["Slash", "Sobrevivência"],
+    "ambientes": ["Deserto", "Estrada"],
+    "acontecimentos": ["Forças Desconhecidas", "Canibalismo"],
+    "quantidade": "Solo",
+    "sinopse": "Uma família americana em uma viagem de carro é atacada por mutantes canibais no deserto.",
+    "capas": ["/viagem_maldita.jpg"]
+  },
+  {
+    "title": "O Mistério das Duas Irmãs",
+    "ano": 2009,
+    "periodo": "Atuais",
+    "subgeneros": ["Psicológico", "Sobrenatural"],
+    "ambientes": ["Casa Assombrada"],
+    "acontecimentos": [
+      "Aparições Fantasmagóricas",
+      "Mudanças na Percepção da Realidade"
+    ],
+    "quantidade": "Solo",
+    "sinopse": "Após sair de um hospital psiquiátrico, uma jovem descobre que sua madrasta pode estar escondendo algo sombrio.",
+    "capas": ["/images/misterio_duas_irmas.jpg"]
+  }
+]

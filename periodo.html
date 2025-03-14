@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escolha o Período</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Escolha o Período</h2>
+
+      <button
+        class="btn btn-danger w-75 mb-3"
+        onclick="salvarEscolha('periodo', 'Atuais')"
+      >
+        Atuais
+      </button>
+
+      <button
+        class="btn btn-danger w-75 mb-3"
+        onclick="salvarEscolha('periodo', 'Antigos')"
+      >
+        Antigos
+      </button>
+
+      <button
+        class="btn btn-danger w-75 mb-3"
+        onclick="salvarEscolha('periodo', 'Atemporal')"
+      >
+        Atemporal
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

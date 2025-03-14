@@ -1,0 +1,220 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.tela-inicial {
+  background-image: url("images/fundo5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.imagem-topo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 80px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .imagem-topo {
+    width: 80px;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .imagem-topo {
+    width: 60px;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+.titulo-terror {
+  font-family: "Creepster", cursive;
+  font-size: 30px;
+  color: #100f0f;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 4px 4px 10px rgba(228, 213, 213, 0.8);
+}
+
+.botao-comecar {
+  background-color: #050505;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(255, 45, 45, 0.8);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.botao-comecar:hover {
+  background-color: #ff0000;
+  box-shadow: 0px 0px 25px rgba(255, 0, 0, 1);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+button {
+  background-color: #ff2d2d;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(255, 45, 45, 0.8);
+}
+
+button:hover {
+  background-color: #ff0000;
+  box-shadow: 0px 0px 25px rgba(255, 0, 0, 1);
+  transform: scale(1.05);
+}
+
+#filmes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #181717;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 850px;
+  box-shadow: 0px 4px 10px #f9f8f81a;
+  position: relative;
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #ff8000;
+  margin: 0px 0;
+}
+
+.card p {
+  font-size: 10px !important;
+  color: #ccc;
+  margin: 8px 0;
+  background-color: #f9f8f81a;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: left;
+  width: 90%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card .saiba-mais {
+  background-color: #e71515;
+  color: #fff;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(10, 10, 10, 0.8);
+}
+
+.card .saiba-mais:hover {
+  background-color: #f20d0d;
+  box-shadow: 0px 0px 20px rgb(7, 7, 7);
+}
+
+.pagina-periodo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #f00707;
+}
+
+.pagina-periodo h1 {
+  font-size: 28px;
+  color: #ff8000;
+}
+
+.pagina-periodo p {
+  font-size: 18px;
+  color: #ffffff;
+  max-width: 600px;
+}
+
+.pagina-periodo button {
+  background-color: #ff2d2d;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(255, 45, 45, 0.8);
+  margin-top: 20px;
+}
+
+.pagina-periodo button:hover {
+  background-color: #ff0000;
+  box-shadow: 0px 0px 25px rgba(255, 0, 0, 1);
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .pagina-periodo h1 {
+    font-size: 24px;
+  }
+  .pagina-periodo p {
+    font-size: 16px;
+  }
+}
