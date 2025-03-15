@@ -1,111 +1,113 @@
-function salvarEscolha(categoria, valor) {
-  let escolhas = JSON.parse(localStorage.getItem("escolhas")) || {};
-  escolhas[categoria] = valor;
-  localStorage.setItem("escolhas", JSON.stringify(escolhas));
-  proximaPagina();
-}
+const filters = {
+  periodo: "",
+  subgenero: "",
+  ambiente: "",
+  acontecimento: "",
+};
 
-document.body.classList.add("pagina-sugestoes");
+document.addEventListener("DOMContentLoaded", async () => {
+  const savedFilters = JSON.parse(localStorage.getItem("movieFilters")) || {};
+  Object.assign(filters, savedFilters);
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.body.classList.add("pagina-periodo");
+  console.log("Filtros carregados:", filters);
+
+  if (document.querySelector("#movie-results")) {
+    await fetchMovies();
+  }
+
+  setupFilterButtons();
 });
 
-function proximaPagina() {
-  let paginas = [
-    "periodo",
-    "subgenero",
-    "ambiente",
-    "acontecimento",
-    "quantidade",
-    "sugestoes",
-  ];
+function setupFilterButtons() {
+  const filterButtons = document.querySelectorAll(".filter-btn");
 
-  let atual = window.location.pathname.split("/").pop();
+  filterButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const filterType = btn.getAttribute("data-filter");
+      const filterValue = btn.getAttribute("data-value");
 
-  if (atual === "index.html" || atual === "") {
-    window.location.href = "periodo.html";
-    return;
-  }
+      // Armazena o filtro selecionado
+      filters[filterType] = filterValue;
+      localStorage.setItem("movieFilters", JSON.stringify(filters));
 
-  let atualNome = atual.replace(".html", "");
-  let proximaIndex = paginas.indexOf(atualNome) + 1;
+      // Atualiza o estilo do botão selecionado
+      const buttonsInGroup = document.querySelectorAll(
+        `[data-filter="${filterType}"]`
+      );
+      buttonsInGroup.forEach((b) => b.classList.remove("selected"));
+      btn.classList.add("selected");
 
-  if (proximaIndex < paginas.length) {
-    let proxima = paginas[proximaIndex] + ".html";
-    window.location.href = proxima;
+      console.log("Filtros atualizados:", filters);
+    });
+  });
+}
+//Função para a API
+async function fetchMovies() {
+  try {
+    const apiUrl = "http://localhost:3000/api/filmes/filtro-multiplas";
+
+    // Criando os parametros que vai buscar dentro da API
+    const queryParams = new URLSearchParams({
+      periodo: filters.periodo || "",
+      subgenero: filters.subgenero || "",
+      ambiente: filters.ambiente || "",
+      acontecimento: filters.acontecimento || "",
+      acontecimento: filters.quantidade || "",
+    });
+
+    console.log("URL da requisição:", `${apiUrl}?${queryParams}`);
+
+    // Faz a requisição dentro da API
+    const response = await fetch(`${apiUrl}?${queryParams}`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    const data = await response.json();
+    console.log("Filmes recebidos da API:", data); // Resposta dos filmes
+
+    displayMovies(data); // Exibir os filmes na tela
+  } catch (error) {
+    console.error("Erro ao buscar filmes:", error);
+    document.querySelector("#movie-results").innerHTML =
+      "<p>Erro ao buscar filmes. Tente novamente.</p>";
   }
 }
 
-function carregarFilmes() {
-  fetch("movies.json")
-    .then((response) => response.json())
-    .then((movies) => {
-      let escolhas = JSON.parse(localStorage.getItem("escolhas")) || {};
-      let container = document.getElementById("filmes");
-      if (!container) {
-        return;
-      }
+// Função para os filmes que serão retornados pela API
+function displayMovies(movies) {
+  const movieResults = document.querySelector("#movie-results");
+  movieResults.innerHTML = ""; // Limpar resultados anteriores
 
-      if (
-        !escolhas.periodo ||
-        !escolhas.subgenero ||
-        !escolhas.ambiente ||
-        !escolhas.acontecimento ||
-        !escolhas.quantidade
-      ) {
-        container.innerHTML =
-          "<p>Por favor, selecione todas as opções antes de prosseguir.</p>";
-        return;
-      }
+  console.log("Tentando exibir filmes na tela:", movies); // Conferem se os filmes retornaram
 
-      let filmesFiltrados = movies.filter((movie) => {
-        let matchCount = 0;
-        if (movie.periodo === escolhas.periodo) matchCount++;
-        if (movie.subgeneros.includes(escolhas.subgenero)) matchCount++;
-        if (movie.ambientes.includes(escolhas.ambiente)) matchCount++;
-        if (movie.acontecimentos.includes(escolhas.acontecimento)) matchCount++;
-        if (movie.quantidade === escolhas.quantidade) matchCount++;
+  if (movies && movies.length > 0) {
+    movies.forEach((movie) => {
+      console.log("Filme sendo exibido:", movie);
 
-        return matchCount >= 3;
-      });
-
-      container.innerHTML = "";
-
-      if (filmesFiltrados.length > 0) {
-        filmesFiltrados.slice(0, 4).forEach((movie) => {
-          let div = document.createElement("div");
-          div.classList.add("card");
-          div.innerHTML = `
-              <img src="${movie.capas[0]}" alt="${movie.title}">
-              <div class="card-content">
-                <h3>${movie.title}</h3>
-                <p>${movie.sinopse}</p>
-                <a href="#" class="saiba-mais">Saiba Mais</a>
-              </div>
-            `;
-          container.appendChild(div);
-        });
-      } else {
-        let randomMovies = movies.sort(() => 0.5 - Math.random()).slice(0, 4);
-
-        container.innerHTML =
-          "<p>Nenhum filme encontrado para essa combinação exata. Aqui estão algumas sugestões aleatórias:</p>";
-
-        randomMovies.forEach((movie) => {
-          let div = document.createElement("div");
-          div.classList.add("card");
-          div.innerHTML = `
-              <img src="${movie.capas[0]}" alt="${movie.title}">
-              <div class="card-content">
-                <h3>${movie.title}</h3>
-                <p>${movie.sinopse}</p>
-                <a href="#" class="saiba-mais">Saiba Mais</a>
-              </div>
-            `;
-          container.appendChild(div);
-        });
-      }
-    })
-    .catch((error) => console.error("Erro ao carregar filmes:", error));
+      const movieCard = document.createElement("div");
+      movieCard.classList.add("movie-card");
+      movieCard.innerHTML = `
+              <h3>${movie.titulo}</h3>
+              <p>Ano: ${movie.ano}</p>
+              <p>Gênero: ${
+                movie.subgenero ? movie.subgenero.join(", ") : "N/A"
+              }</p>
+              <p>Ambiente: ${
+                movie.ambiente ? movie.ambiente.join(", ") : "N/A"
+              }</p>
+              <p>Acontecimento: ${
+                movie.acontecimento ? movie.acontecimento.join(", ") : "N/A"
+              }</p>
+              <img src="${movie.capa}" alt="${
+        movie.titulo
+      }" style="max-width: 200px;">
+          `;
+      movieResults.appendChild(movieCard);
+    });
+  } else {
+    movieResults.innerHTML = "<p>Nenhum filme encontrado.</p>";
+  }
 }
