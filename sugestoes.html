@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Filmes Sugeridos</title>
+    <title>Sugestões - App de Filmes de Terror</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body onload="carregarFilmes()">
-    <div class="container">
-      <h2>Baseado na sua escolha, sugerimos:</h2>
-      <div id="filmes">
+  <body>
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div class="screen filter-screen active">
+          <h2>Sugestões</h2>
+          <div id="movie-results"></div>
+          <!-- Resultados da API serão exibidos aqui -->
+          <a href="index.html" class="back-btn">Voltar ao Início</a>
+        </div>
       </div>
-      <button onclick="location.href='index.html'">Voltar ao Início</button>
     </div>
     <script src="script.js"></script>
   </body>
