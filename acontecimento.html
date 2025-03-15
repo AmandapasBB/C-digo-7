@@ -3,83 +3,179 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Escolha o Acontecimento</title>
+    <title>Acontecimento - App de Filmes de Terror</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <div class="container">
-      <h2>Escolha o Acontecimento</h2>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Possessão Demoníaca')"
-      >
-        Possessão Demoníaca
-      </button>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Zumbis')"
-      >
-        Zumbis
-      </button>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Serial Killer')"
-      >
-        Serial Killer
-      </button>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Maldições e Feitiços')"
-      >
-        Maldições e Feitiços
-      </button>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Aparições Fantasmagóricas')"
-      >
-        Aparições Fantasmagóricas
-      </button>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Objetos Assombrados')"
-      >
-        Objetos Assombrados
-      </button>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Experimentos Genéticos')"
-      >
-        Experimentos Genéticos
-      </button>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Cultos Macabros')"
-      >
-        Cultos Macabros
-      </button>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Evocação de Entidades Malignas')"
-      >
-        Evocação de Entidades Malignas
-      </button>
-
-      <button
-        class="btn btn-danger w-75 mb-3"
-        onclick="salvarEscolha('acontecimento', 'Jogos Sádicos')"
-      >
-        Jogos Sádicos
-      </button>
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div class="screen filter-screen active">
+          <h2>Acontecimento</h2>
+          <div class="filter-options">
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Aparição Fantasmagórica"
+            >
+              Aparição Fantasmagórica
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Possessão Demoníaca"
+            >
+              Possessão Demoníaca
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Exorcismo"
+            >
+              Exorcismo
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Poltergeist"
+            >
+              Poltergeist
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Objetos Amaldiçoados"
+            >
+              Objetos Amaldiçoados
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Projeção Astral"
+            >
+              Projeção Astral
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Mutilação"
+            >
+              Mutilação
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Sacrifício Humano"
+            >
+              Sacrifício Humano
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Canibalismo"
+            >
+              Canibalismo
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Autópsia / Experimentação Humana"
+            >
+              Autópsia / Experimentação Humana
+            </button>
+            <button class="filter-btn" data-filter="event" data-value="Zumbis">
+              Zumbis
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Vampiros"
+            >
+              Vampiros
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Lobisomens"
+            >
+              Lobisomens
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Criaturas Mutantes"
+            >
+              Criaturas Mutantes
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Seres de Outro Mundo / Alienígenas"
+            >
+              Seres de Outro Mundo / Alienígenas
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Cultos Satânicos"
+            >
+              Cultos Satânicos
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Maldição Ancestral"
+            >
+              Maldição Ancestral
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Rituais de Magia Negra"
+            >
+              Rituais de Magia Negra
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Bruxaria"
+            >
+              Bruxaria
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Hospitais / Sanatórios Abandonados"
+            >
+              Hospitais / Sanatórios Abandonados
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Serial Killer"
+            >
+              Serial Killer
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Sequestro e Tortura"
+            >
+              Sequestro e Tortura
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="event"
+              data-value="Dimensões Paralelas"
+            >
+              Dimensões Paralelas
+            </button>
+          </div>
+          <a href="sugestoes.html" class="continue-btn">Continuar...</a>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
 </html>
+
