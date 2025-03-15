@@ -3,43 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Escolha o Ambiente</title>
+    <title>Ambiente - App de Filmes de Terror</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <div class="container">
-      <h2>Escolha o Ambiente</h2>
-      <button onclick="salvarEscolha('ambiente', 'Casa Assombrada')">
-        Casa Assombrada
-      </button>
-      <button onclick="salvarEscolha('ambiente', 'Floresta')">Floresta</button>
-      <button onclick="salvarEscolha('ambiente', 'Hospitais Psiquiátricos')">
-        Hospitais Psiquiátricos
-      </button>
-      <button onclick="salvarEscolha('ambiente', 'Escolas/Internatos')">
-        Escolas / Internatos
-      </button>
-      <button onclick="salvarEscolha('ambiente', 'Cemitérios')">
-        Cemitérios
-      </button>
-      <button onclick="salvarEscolha('ambiente', 'Hotéis')">Hotéis</button>
-      <button
-        onclick="salvarEscolha('ambiente', 'Parques de Diversão Abandonados')"
-      >
-        Parques de Diversão Abandonados
-      </button>
-      <button onclick="salvarEscolha('ambiente', 'Espaços Subterrâneos')">
-        Espaços Subterrâneos
-      </button>
-      <button onclick="salvarEscolha('ambiente', 'Igrejas/Mosteiros')">
-        Igrejas / Mosteiros
-      </button>
-      <button onclick="salvarEscolha('ambiente', 'Casa Antiga')">
-        Casa Antiga
-      </button>
-      <button onclick="salvarEscolha('ambiente', 'Shopping')">Shopping</button>
-      <button onclick="salvarEscolha('ambiente', 'Lago')">Lago</button>
-      <button onclick="salvarEscolha('ambiente', 'Fazenda')">Fazenda</button>
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div class="screen filter-screen active">
+          <h2>Ambiente</h2>
+          <div class="filter-options">
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Casa Abandonada"
+            >
+              Casa Abandonada
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Cabana na Floresta"
+            >
+              Cabana na Floresta
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Apartamento"
+            >
+              Apartamento
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Escola"
+            >
+              Escola
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Floresta"
+            >
+              Floresta
+            </button>
+            <button class="filter-btn" data-filter="setting" data-value="Lago">
+              Lago
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Cidade Pequena"
+            >
+              Cidade Pequena
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Parque de Diversões"
+            >
+              Parque de Diversões
+            </button>
+            <button class="filter-btn" data-filter="setting" data-value="Hotel">
+              Hotel
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Cemitério"
+            >
+              Cemitério
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Hospital"
+            >
+              Hospital
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Laboratório"
+            >
+              Laboratório
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Base Militar"
+            >
+              Base Militar
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Dimensão Alternativa"
+            >
+              Dimensão Alternativa
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="setting"
+              data-value="Sonho/Pesadelo"
+            >
+              Sonho/Pesadelo
+            </button>
+            <button class="filter-btn" data-filter="setting" data-value="Casa">
+              Casa
+            </button>
+          </div>
+          <a href="acontecimento.html" class="continue-btn">Continuar...</a>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
